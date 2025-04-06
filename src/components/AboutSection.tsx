@@ -52,29 +52,20 @@ const AboutSection = () => {
           <div>
             <ScrollReveal threshold={0.1}>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Full-Stack Developer and
-                <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 font-serif italic">
-                  Blockchain Specialist
-                </span>
+                Frontend Developer                
               </h2>
 
               <div className="space-y-6 text-gray-300">
                 <p>
-                  I am a highly skilled Full-Stack Developer with extensive experience in building scalable, high-performance 
-                  web applications and blockchain solutions. I specialize in working with React, Node.js, Next.js, Django, 
-                  and Ethereum, Solana, Tron to deliver custom web development services to European and global clients.
+                  I am a highly skilled Full-Stack Developer With 8 years in frontend development, I've crafted user-friendly interfaces using React, TypeScript, and GraphQL.
                 </p>
 
                 <p>
-                  My passion for technology innovation and client satisfaction drives me to deliver solutions that help 
-                  businesses scale, optimize, and grow in the competitive digital landscape. I've improved website 
-                  performance by optimizing server responses, reducing load times by up to 40%.
+                My work includes real-time data apps and cross-platform solutions, ensuring seamless user experiences. I focus on performance optimization and responsive design, aiming to enhance user engagement.
                 </p>
 
                 <p>
-                  When I'm not coding, I enjoy contributing to open-source blockchain projects and staying updated 
-                  with the latest advancements in web development and blockchain technology.
+                I'm eager to contribute my skills to innovative projects, driving business growth through technology.
                 </p>
               </div>
 
@@ -85,15 +76,15 @@ const AboutSection = () => {
                     Education
                   </h3>
                   <p className="text-gray-300">Master's Degree in Computer Engineering</p>
-                  <p className="text-gray-400 text-sm">Kyiv Polytechnic Institute, 2016-2019</p>
+                  <p className="text-gray-400 text-sm">School for Higher and Professional Education, HongKong, 2014-2017</p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
                     <Briefcase size={18} className="text-purple-400" />
                     Experience
                   </h3>
-                  <p className="text-gray-300">Senior Full-Stack Developer</p>
-                  <p className="text-gray-400 text-sm">5+ years of professional experience</p>
+                  <p className="text-gray-300">Frontend Engineer</p>
+                  <p className="text-gray-400 text-sm">7+ years of professional experience</p>
                 </div>
               </div>
 

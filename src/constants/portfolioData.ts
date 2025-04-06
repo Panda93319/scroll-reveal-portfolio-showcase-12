@@ -60,27 +60,11 @@ export const skillCategories = [
     name: 'Backend',
     icon: 'Server',
     skills: [
-      { name: 'Node.js', icon: '🟢' },
-      { name: 'NestJS', icon: '🐈' },
-      { name: 'Django', icon: '🐍' },
-      { name: 'PHP', icon: '🐘' },
-      { name: 'Laravel', icon: '🔺' },
-      { name: 'ASP.NET', icon: '🌐' },
+      { name: 'Node.js', icon: '🟢' },      
+      { name: 'Django', icon: '🐍' },      
+      { name: 'Laravel', icon: '🔺' },      
     ]
-  },
-  {
-    name: 'Blockchain',
-    icon: 'Coins',
-    skills: [
-      { name: 'Ethereum', icon: '⟠' },
-      { name: 'Solana', icon: '☀️' },
-      { name: 'TON', icon: '💎' },
-      { name: 'Tron', icon: '♦️' },
-      { name: 'Smart Contract', icon: '📜' },
-      { name: 'Web3.js', icon: '🔌' },
-      { name: 'Ethers.js', icon: '🔄' },
-    ]
-  },
+  },  
   {
     name: 'Database',
     icon: 'Database',
@@ -108,51 +92,41 @@ export const skillCategories = [
 ];
 
 // Experience data
-export const experienceData = [
+export const experienceData = [  
   {
-    title: "Senior Full-Stack Developer",
-    company: "SoftServe",
-    period: "2023 - 2025",
-    location: "Kyiv, Ukraine",
+    title: "Frontend Developer",
+    company: "Tokopedia",
+    period: "2023 - 2024",
+    location: "Jakarta, Indonesia",
     descriptions: [
-      "Began offering custom web development and blockchain solutions for European clients in e-commerce, fintech, and blockchain.",
-      "Successfully collaborated with company and developing scalable, high-performance web applications using React, Next.js, Node.js.",
-      "Optimized website performance, reducing load times by 30% and improving API response speeds.",
-      "Developed secure blockchain applications, including smart contracts on the Ethereum and Solana networks."
+      "Develop the Seller Center platform using React and TypeScript, empowering sellers with tools to manage their stores.",
+      "Integrated GraphQL for efficient data handling, reducing load times and improving user experience.",
+      "Employed WebSockets for real-time order notifications, keeping sellers informed instantly.",
+      "Focused on performance optimization and responsive design, resulting in a 20% increase in seller satisfaction scores."
     ]
   },
   {
-    title: "Backend Developer",
-    company: "HTEC",
-    period: "2022 - 2023",
-    location: "Germany",
+    title: "Frontend Developer",
+    company: "Grab",
+    period: "2020 - 2023",
+    location: "Singapore",
     descriptions: [
-      "Improved the website's backend performance by optimizing server responses, resulting in 40% faster load times.",
-      "Built and integrated real-time product recommendation engines, enhancing user engagement and increasing conversion rates.",
-      "Worked closely with the frontend team using Django and MongoDB."
+      "Built the dashboard with React and TypeScript, providing merchants with real-time business insights.",
+      "Used Redux for state management, ensuring consistent data flow across components.",
+      "Integrated RESTful APIs for data retrieval, optimizing the dashboard's responsiveness.",
+      "Prioritized accessibility and responsive design, making the platform user-friendly across devices."
     ]
   },
   {
-    title: "Full-Stack Developer",
-    company: "Monzo",
-    period: "2020 - 2021",
-    location: "UK",
+    title: "Frontend Developer",
+    company: "Rakuten",
+    period: "2017 - 2020",
+    location: "Tokyo, Japan",
     descriptions: [
-      "Built and optimized backend services for a mobile banking app serving over 5 million users in the UK and Europe.",
-      "Focused on developing secure, high-performance APIs for payments and financial transactions.",
-      "Reduced data processing time by 30%, improving efficiency of banking services."
-    ]
-  },
-  {
-    title: "Software Engineer",
-    company: "Balt",
-    period: "2019 - 2020",
-    location: "Lithuania",
-    descriptions: [
-      "Built and maintained microservices for a major European marketplace.",
-      "Enhanced the platform's search functionality and user recommendation system using Node.js and React.",
-      "Reduced platform load times by 25%, improving performance on both mobile and desktop versions.",
-      "Integrated payment platforms like PayPal and Stripe, and implemented cloud hosting solutions."
+      "Developed the mobile app using React Native and TypeScript, ensuring a smooth experience for iOS and Android users.",
+      "Integrated GraphQL APIs for efficient data fetching, enhancing app performance.",
+      "Implemented real-time booking features with WebSockets, allowing instant updates on room availability.",
+      "Focused on responsive design and performance optimization, leading to increased user engagement."
     ]
   }
 ];
@@ -160,14 +134,9 @@ export const experienceData = [
 // Contact section data
 export const contactInfo = [
   {
-    icon: "Phone",
-    title: "Phone",
-    value: "+380963598237"
-  },
-  {
     icon: "Mail",
     title: "Email",
-    value: "suroviahinartem@gmail.com"
+    value: "venuswillie1216@gmail.com"
   },
   {
     icon: "MapPin",
@@ -186,7 +155,7 @@ export const socialLinks = [
   {
     name: "LinkedIn",
     icon: "Linkedin",
-    url: "https://linkedin.com/in/artem-suroviahin-b857a4357"
+    url: "#"
   },
   {
     name: "GitHub",

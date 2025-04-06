@@ -1,6 +1,5 @@
 
 import { useState, useEffect } from 'react';
-import { ArrowRight } from 'lucide-react';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -24,7 +23,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
-          <span className="text-white font-bold text-xl">AB</span>
+          <span className="text-white font-bold text-xl">WC</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -37,20 +36,6 @@ const Navbar = () => {
           </a>
           <a href="#about" className="text-white/80 hover:text-white transition-colors">
             About
-          </a>
-          <a href="#blog" className="text-white/80 hover:text-white transition-colors">
-            Blog
-          </a>
-          <div className="relative group">
-            <button className="text-white/80 hover:text-white transition-colors flex items-center gap-1">
-              More
-            </button>
-          </div>
-          <a
-            href="#contact"
-            className="bg-black/30 text-white px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 transition-colors"
-          >
-            Book a Call
           </a>
         </div>
 
@@ -108,21 +93,7 @@ const Navbar = () => {
             className="text-white hover:text-purple-400 transition-colors"
           >
             About
-          </a>
-          <a
-            href="#blog"
-            onClick={() => setMobileMenuOpen(false)}
-            className="text-white hover:text-purple-400 transition-colors"
-          >
-            Blog
-          </a>
-          <a
-            href="#contact"
-            onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-full border border-white/20 transition-all"
-          >
-            Book a Call <ArrowRight size={16} />
-          </a>
+          </a>          
         </div>
       </div>
     </nav>

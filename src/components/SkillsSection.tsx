@@ -90,37 +90,7 @@ const SkillsSection = () => {
               </div>
             </motion.div>
           ))}
-        </div>
-
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="mt-20 text-center"
-        >
-          <h3 className="text-xl font-semibold mb-6">Certifications & Achievements</h3>
-          <div className="flex flex-wrap justify-center gap-4">
-            <motion.span 
-              whileHover={{ scale: 1.03, boxShadow: '0 10px 25px -5px rgba(124, 58, 237, 0.3)' }}
-              className="px-5 py-3 bg-gray-800/50 rounded-full border border-gray-700 text-sm shadow-lg"
-            >
-              Google Cloud Certified – Associate Cloud Engineer
-            </motion.span>
-            <motion.span 
-              whileHover={{ scale: 1.03, boxShadow: '0 10px 25px -5px rgba(124, 58, 237, 0.3)' }}
-              className="px-5 py-3 bg-gray-800/50 rounded-full border border-gray-700 text-sm shadow-lg"
-            >
-              Ethereum Blockchain Developer Certification
-            </motion.span>
-            <motion.span 
-              whileHover={{ scale: 1.03, boxShadow: '0 10px 25px -5px rgba(124, 58, 237, 0.3)' }}
-              className="px-5 py-3 bg-gray-800/50 rounded-full border border-gray-700 text-sm shadow-lg"
-            >
-              Contributor to open-source blockchain projects
-            </motion.span>
-          </div>
-        </motion.div>
+        </div>        
       </div>
     </section>
   );
