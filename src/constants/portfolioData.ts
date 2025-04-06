@@ -3,41 +3,77 @@
 export const projects = [
   {
     id: 1,
-    title: 'Next Ventures',
-    description: 'A online space for entrepreneurs to pitch ideas, explore others, and gain exposure with clean design.',
-    image: '/lovable-uploads/c8b97f60-f85b-43f8-9b08-1f53f29e7206.png',
-    url: 'https://example.com/nextventures',
-    technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'Framer Motion', 'Auth.js', 'Sanity.cms', 'GROQ', 'Sentry', 'markdown'],
-    features: [
-      'Leveraged Partial Prerendering and After for faster loading.',
-      'Simplified idea submission with a clean, intuitive design.',
-      'Enhanced browsing with seamless performance optimization.'
+    title: 'MedHealth Dashboard',
+    description: 'A healthcare management dashboard displaying appointments, patient records, and medical metrics with a clean, data-rich interface.',
+    image: '/img/Project1.jpg',
+    url: 'https://www.medhealth.net.br/',
+    "technologies": [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Chart.js (or D3.js for metrics)",
+      "Date-fns (for calendar)",
+      "CSS Grid/Flexbox",
+      "JSON (for mock data)",
+      "Figma (for design mockups)"
+    ],
+    "features": [
+      "Built responsive card components for metrics (appointments, surgeries) with dynamic percentage indicators",
+      "Implemented an interactive calendar grid with CSS Grid for date management",
+      "Designed a patient records section with medical category tagging",
+      "Created a scrollable today's appointments list with medical priority indicators (bold items)",
+      "Developed percentage change indicators with conditional styling (colors for positive/negative trends)"
     ]
   },
   {
-    id: 2,
-    title: 'Fitness Tracker',
-    description: 'A comprehensive fitness tracking application with personalized workout plans and progress visualization.',
-    image: 'https://picsum.photos/id/26/800/600',
-    url: 'https://example.com/fitnesstracker',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Chart.js'],
-    features: [
-      'Real-time workout tracking and analytics',
-      'Personalized fitness recommendations',
-      'Social sharing and community features'
+    "id": 2,
+    "title": "Rakuten Website",
+    "description": "A global website showcasing Rakuten's services, innovations, and regional operations with multi-region support.",
+    "image": "/img/rakuten.png",
+    "url": "https://global.rakuten.com/corp/",
+    "technologies": [
+      "Next.js (or Gatsby for static content)",
+      "React",
+      "TypeScript",
+      "Tailwind CSS/SASS",
+      "i18n (for multilingual support)",
+      "Headless CMS (Contentful/Sanity)",
+      "GraphQL",
+      "Google Maps API (for region display)",
+      "Accessibility tools (axe-core)"
+    ],
+    "features": [
+      "Developed responsive navigation with dropdown menus (visible in 'About Us' section hierarchy)",
+      "Implemented geo-based content switching for region-specific services (AMERICAS/ASIA flags)",
+      "Built CMS-powered pages for 'Media Room' and 'Sustainability' dynamic content",
+      "Optimized performance for investor relations pages with critical CSS",
+      "Created accessible mega-menus for deep corporate site navigation"
     ]
   },
   {
-    id: 3,
-    title: 'E-commerce Platform',
-    description: 'A modern e-commerce solution with advanced product filtering and secure checkout process.',
-    image: 'https://picsum.photos/id/96/800/600',
-    url: 'https://example.com/ecommerce',
-    technologies: ['Next.js', 'Stripe', 'PostgreSQL', 'Prisma', 'TailwindCSS'],
-    features: [
-      'Secure payment processing with Stripe integration',
-      'Advanced product filtering and search capabilities',
-      'Responsive design for all devices'
+    "id": 3,
+    "title": "Grab Website",
+    "description": "A technology showcase platform for Grab's hyperlocal mapping solutions, featuring award-winning products, partner integrations, and real-time data capabilities.",
+    "image": "/img/grabmaps.png",
+    "url": "https://www.grab.com/sg/maps/",
+    "technologies": [
+      "Next.js (App Router)",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion (for interactive maps)",
+      "Mapbox GL JS/Leaflet",
+      "Headless CMS (Contentful)",
+      "Partner API integrations",
+      "Vercel Analytics",
+      "Geolocation APIs"
+    ],
+    "features": [
+      "Developed interactive dropdown menus for solutions/industries navigation (visible in header)",
+      "Implemented partner logo carousel with lazy loading (Microsoft, AWS, etc.)",
+      "Built real-time data visualization components for hyperlocal map updates",
+      "Created award highlight section with animated Red Dot Award badge",
+      "Optimized for Southeast Asia region with localized content delivery"
     ]
   }
 ];

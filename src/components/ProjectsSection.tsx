@@ -3,8 +3,6 @@ import { ExternalLink, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { projects } from '@/constants/portfolioData';
 import BackgroundAnimation from './BackgroundAnimation';
-import { Button } from './ui/button';
-import { Card, CardContent } from './ui/card';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 const ProjectsSection = () => {
