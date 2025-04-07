@@ -82,7 +82,7 @@ const HeroSection = () => {
                 <div className="relative h-12 w-12">
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 animate-pulse"></div>
                   <img
-                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    src="/img/me.png"
                     alt="Profile"
                     className="w-12 h-12 rounded-full object-cover relative z-10 border-2 border-white"
                   />
